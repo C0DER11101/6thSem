@@ -4,6 +4,8 @@ Yo, it's $6^{th}$ semester!! :v:
 
 ## Contents
 
+[Natural Language Processing](https://www.youtube.com/playlist?list=PL0s3O6GgLL5cSnr1yshEiRL23HYD6wyH5).
+
 1. [CSE-601(Compiler Design)](https://www.youtube.com/playlist?list=PLxCzCOWd7aiEKtKSIHYusizkESC42diyc).
 2. [CSE-ELV-602(Natural Language)](https://www.youtube.com/playlist?list=PLPIwNooIb9vimsumdWeKF3BRzs9tJ-_gy).
 3. [CSE-ELV-601(Digital Image Processing)](https://www.youtube.com/playlist?list=PLXOYj6DUOGrrjyRKpD0U0bIKGOXCAOHkE).
