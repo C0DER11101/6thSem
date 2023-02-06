@@ -1,3 +1,3 @@
-# $6^{th} Semester
+# $6^{th}$ Semester
 
 ---
