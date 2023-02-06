@@ -8,7 +8,7 @@ Yo, it's $6^{th}$ semester!! :v:
 2. [CSE-ELV-602(Natural Language)](https://www.youtube.com/playlist?list=PLPIwNooIb9vimsumdWeKF3BRzs9tJ-_gy).
 3. [CSE-ELV-601(Digital Image Processing)](https://www.youtube.com/playlist?list=PLXOYj6DUOGrrjyRKpD0U0bIKGOXCAOHkE).
 4. [CSE-602(Computer Networks)](https://www.youtube.com/playlist?list=PLBlnK6fEyqRgMCUAG0XRw78UA8qnv6jEx).
-5. [CSE-O-ELV-601(Graph Theory)](https://www.youtube.com/playlist?list=PL2Ya74ChmcUslIXGDm7a7QdiMzuESym_l).
+5. [CSE-O-ELV-601(Graph Theory)](https://www.youtube.com/playlist?list=PLmXKhU9FNesTpQNP_OpXN7WaPwGx7NWsq).
 
 **Don't expect to find notes here**. This repository is created only to serve the sole purpose of storing YouTube links to study materials for this semester.
 
