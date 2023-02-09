@@ -1,6 +1,6 @@
 # $6^{th}$ Semester
 
-Yo, it's $6^{th}$ semester!! :v:
+It's $6^{th}$ semester!! :v:
 
 ## Contents
 
@@ -16,11 +16,11 @@ Yo, it's $6^{th}$ semester!! :v:
 
 **Don't expect to find notes here**. This repository is created only to serve the sole purpose of storing YouTube links to study materials for this semester.
 
+Also it will contain some files, but not of much/any help.
+
 More links might come on the way. But until then, relax!!
 
-*Enjoy!!!*
 
-
-:v: Peace :v:
+:v: Happy studying :v:
 
 ---
