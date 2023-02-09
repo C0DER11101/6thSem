@@ -1,4 +1,5 @@
 /* lex program to check if the entered word is verb or not */
+
 %{
 
 %}
