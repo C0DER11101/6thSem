@@ -4,7 +4,7 @@ It's $6^{th}$ semester!! :v:
 
 ## Contents
 
-[Natural Language Processing](https://www.youtube.com/playlist?list=PL0s3O6GgLL5cSnr1yshEiRL23HYD6wyH5).
+[Natural Language Processing](https://www.youtube.com/playlist?list=PLmXKhU9FNesSmu-_DKC7APRoFkaQvGurx).
 
 1. [CSE-601(Compiler Design)](https://www.youtube.com/playlist?list=PLxCzCOWd7aiEKtKSIHYusizkESC42diyc).
 2. [CSE-ELV-602(Natural Language)](https://www.youtube.com/playlist?list=PLPIwNooIb9vimsumdWeKF3BRzs9tJ-_gy).
@@ -14,7 +14,7 @@ It's $6^{th}$ semester!! :v:
 
 One more playlist for compiler design:
 
-[Compiler Design](https://www.youtube.com/playlist?list=PLmXKhU9FNesSmu-_DKC7APRoFkaQvGurx).
+[Compiler Design](https://www.youtube.com/playlist?list=PL0s3O6GgLL5cSnr1yshEiRL23HYD6wyH5).
 
 Here are some more playlists for computer networking:
 
