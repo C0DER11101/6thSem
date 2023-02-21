@@ -12,6 +12,10 @@ It's $6^{th}$ semester!! :v:
 4. [CSE-602(Computer Networks)](https://www.youtube.com/playlist?list=PLmXKhU9FNesSjFbXSZGF8JF_4LVwwofCd).
 5. [CSE-O-ELV-601(Graph Theory)](https://www.youtube.com/playlist?list=PLmXKhU9FNesTpQNP_OpXN7WaPwGx7NWsq).
 
+One more playlist for compiler design:
+
+[Compiler Design](https://www.youtube.com/playlist?list=PLmXKhU9FNesSmu-_DKC7APRoFkaQvGurx).
+
 Here are some more playlists for computer networking:
 
 [Playlist-1](https://www.youtube.com/playlist?list=PLxCzCOWd7aiGFBD2-2joCpWOLUrDLvVV_).
