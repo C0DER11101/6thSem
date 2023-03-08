@@ -4,8 +4,8 @@ output=a.out
 $(output): $(depend)
 	gcc $(depend) -ll
 
-$(depend): $(File)
-	lex $(File)
+$(depend): $(f)
+	lex $(f)
 
 .PHONY: clean
 
