@@ -4,7 +4,7 @@ int fact(int);
 
 int main(void)
 {
-	int num;
+	int num, _0int;
 
 	printf("enter a number: ");
 	scanf("%d", &num);
