@@ -6,40 +6,40 @@
 
 %%
 
-[^a-zA-Z]int[^a-zA-Z] |
-[^a-zA-Z]float[^a-zA-Z] |
-[^a-zA-Z]char[^a-zA-Z] |
-[^a-zA-Z]double[^a-zA-Z] |
-[^a-zA-Z]long[^a-zA-Z] |
-[^a-zA-Z]short[^a-zA-Z] |
-[^a-zA-Z]signed[^a-zA-Z] |
-[^a-zA-Z]unsigned[^a-zA-Z] |
-[^a-zA-Z]typedef[^a-zA-Z] |
-[^a-zA-Z]struct[^a-zA-Z] |
-[^a-zA-Z]if[^a-zA-Z] |
-[^a-zA-Z]else[^a-zA-Z] |
-[^a-zA-Z]for[^a-zA-Z] |
-[^a-zA-Z]while[^a-zA-Z] |
-[^a-zA-Z]goto[^a-zA-Z] |
-[^a-zA-Z]continue[^a-zA-Z] |
-[^a-zA-Z]break[^a-zA-Z] |
-[^a-zA-Z]union[^a-zA-Z] |
-[^a-zA-Z]switch[^a-zA-Z] |
-[^a-zA-Z]case[^a-zA-Z] |
-[^a-zA-Z]default[^a-zA-Z] |
-[^a-zA-Z]const[^a-zA-Z] |
-[^a-zA-Z]void[^a-zA-Z] |
-[^a-zA-Z]extern[^a-zA-Z] |
-[^a-zA-Z]auto[^a-zA-Z] |
-[^a-zA-Z]static[^a-zA-Z] |
-[^a-zA-Z]do[^a-zA-Z] |
-[^a-zA-Z]return[^a-zA-Z] |
-[^a-zA-Z]enum[^a-zA-Z] |
-[^a-zA-Z]sizeof[^a-zA-Z] |
-[^a-zA-Z]volatile[^a-zA-Z] |
-[^a-zA-Z]register[^a-zA-Z] { ++countKey; }
+[^A-Za-z0-9]int[^A-Za-z0-9] |
+[^A-Za-z0-9]float[^A-Za-z0-9] |
+[^A-Za-z0-9]char[^A-Za-z0-9] |
+[^A-Za-z0-9]double[^A-Za-z0-9] |
+[^A-Za-z0-9]long[^A-Za-z0-9] |
+[^A-Za-z0-9]short[^A-Za-z0-9] |
+[^A-Za-z0-9]signed[^A-Za-z0-9] |
+[^A-Za-z0-9]unsigned[^A-Za-z0-9] |
+[^A-Za-z0-9]typedef[^A-Za-z0-9] |
+[^A-Za-z0-9]struct[^A-Za-z0-9] |
+[^A-Za-z0-9]if[^A-Za-z0-9] |
+[^A-Za-z0-9]else[^A-Za-z0-9] |
+[^A-Za-z0-9]for[^A-Za-z0-9] |
+[^A-Za-z0-9]while[^A-Za-z0-9] |
+[^A-Za-z0-9]goto[^A-Za-z0-9] |
+[^A-Za-z0-9]continue[^A-Za-z0-9] |
+[^A-Za-z0-9]break[^A-Za-z0-9] |
+[^A-Za-z0-9]union[^A-Za-z0-9] |
+[^A-Za-z0-9]switch[^A-Za-z0-9] |
+[^A-Za-z0-9]case[^A-Za-z0-9] |
+[^A-Za-z0-9]default[^A-Za-z0-9] |
+[^A-Za-z0-9]const[^A-Za-z0-9] |
+[^A-Za-z0-9]void[^A-Za-z0-9] |
+[^A-Za-z0-9]extern[^A-Za-z0-9] |
+[^A-Za-z0-9]auto[^A-Za-z0-9] |
+[^A-Za-z0-9]static[^A-Za-z0-9] |
+[^A-Za-z0-9]do[^A-Za-z0-9] |
+[^A-Za-z0-9]return[^A-Za-z0-9] |
+[^A-Za-z0-9]enum[^A-Za-z0-9] |
+[^A-Za-z0-9]sizeof[^A-Za-z0-9] |
+[^A-Za-z0-9]volatile[^A-Za-z0-9] |
+[^A-Za-z0-9]register[^A-Za-z0-9] { ++countKey; }
 
-[^0-9][a-zA-z] {++countId;}
+[A-Za-z0-9] {++countId;}
 
 %%
 
