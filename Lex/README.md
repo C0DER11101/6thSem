@@ -8,4 +8,6 @@ More links:
 
 [Link-2](https://www.mpi.nl/corpus/html/trova/ch01s04.html).
 
+[Link-3](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions/Cheatsheet).
+
 ---
