@@ -39,7 +39,8 @@
 [^A-Za-z0-9]volatile[^A-Za-z0-9] |
 [^A-Za-z0-9]register[^A-Za-z0-9] { ++countKey; }
 
-[A-Za-z0-9] {++countId;}
+#[A-Za-z0-9] { printf("Header: ");for(int i=0; yytext[i]!='\0'; i++) printf("%c", yytext[i]); }
+
 
 %%
 
@@ -48,7 +49,6 @@ int main(void)
 	yyin=fopen("main.c", "r");
 	yylex();
 	printf("\nthere are %d keywords in the file!!\n", countKey);
-	printf("\nthere are %d identifiers in the file!!\n", countId);
 
 
 	fclose(yyin);
