@@ -21,7 +21,14 @@ Here are some more playlists for computer networking:
 
 [Playlist-2](https://www.youtube.com/playlist?list=PLBlnK6fEyqRgMCUAG0XRw78UA8qnv6jEx).
 
+**Lex:**
+
 [Lex](https://www.youtube.com/playlist?list=PLXMBJ899tuoo3Zx28hLFGbn_aWG8jV3Ey).
+
+
+**DIP:**
+
+[https://www.youtube.com/playlist?list=PLbwfaPBgAKFEPBg-OFzmjFWmRKKrYigLi](https://www.youtube.com/playlist?list=PLbwfaPBgAKFEPBg-OFzmjFWmRKKrYigLi).
 
 **Don't expect to find notes here**. This repository is created only to serve the sole purpose of storing YouTube links to study materials for this semester.
 
