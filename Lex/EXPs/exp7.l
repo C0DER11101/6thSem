@@ -1,4 +1,4 @@
-/* input a number and check if it is positive or negative */
+/* input a number and check if it is positive or negative and also display the number of positive numbers and negative numbers */
 
 %{
 	int countPos=0, countNeg=0;
