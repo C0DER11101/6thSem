@@ -21,7 +21,7 @@ yytext[0]='0', yytext[1]='9', yytext[2]='1', yytext[3]='2'
 ```
 because the pattern above means "one or  more digits between 0 and 9(both inclusive)".
 
-Now, what I said in [Note.md]() was for patterns similar to the pattern `[a-z]`.
+Now, what I said in [Note.md](https://github.com/C0DER11101/6thSem/blob/6thSem/Lex/EXPs/Note.md) was for patterns similar to the pattern `[a-z]`.
 
 # More observation
 
