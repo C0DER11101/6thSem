@@ -1,7 +1,6 @@
 /* write a lex program to check if an arithmetic expression is valid or not and determine the operators. */
 
 %{
-	#include<stdbool.h>
 	char stack[1000]={'\0'};
 	int top=-1;
 	void validity();
