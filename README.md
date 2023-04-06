@@ -30,12 +30,6 @@ Here are some more playlists for computer networking:
 
 [https://www.youtube.com/playlist?list=PLbwfaPBgAKFEPBg-OFzmjFWmRKKrYigLi](https://www.youtube.com/playlist?list=PLbwfaPBgAKFEPBg-OFzmjFWmRKKrYigLi).
 
-**Don't expect to find notes here**. This repository is created only to serve the sole purpose of storing YouTube links to study materials for this semester.
-
-Also it will contain some files, but not of much/any help.
-
-More links might come on the way. But until then, relax!!
-
 
 :v: Happy studying :v:
 
