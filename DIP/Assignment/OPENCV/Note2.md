@@ -1,4 +1,4 @@
-# [1.py]()
+# [1.py](https://github.com/C0DER11101/6thSem/blob/6thSem/DIP/Assignment/OPENCV/practicePrograms/1.py)
 **Syntax:**
 ```python
 cv2.imread('<imagename>', Flags);
