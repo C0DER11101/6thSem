@@ -1,4 +1,4 @@
-# OpenCV with Python
+# How to read, write and show images in OpenCV
 > OpenCV $\rightarrow$ Open source Computer Vision.
 
 ```python
