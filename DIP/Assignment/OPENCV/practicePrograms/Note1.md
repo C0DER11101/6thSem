@@ -56,6 +56,12 @@ This will keep the image on the screen until a key is pressed.
 
 `waitKey()` returns the **ASCII** value of the key pressed.
 
+Also, in 64-bit machines, it is recommended AND the mask `0xFF` with `cv2.waitKey();` as shown below:
+
+```python
+cv2.waitKey(0) & 0xFF;
+```
+
 # Destroying the window
 ```python
 cv2.destroyAllWindows();
