@@ -74,3 +74,7 @@ cv2.imwrite('name of new file', image variable);
 ```
 $1^{st}$ argument $\rightarrow$ Name of the new image file(can be any name).
 $2^{nd}$ argument $\rightarrow$ image variable to which we had saved the read image(using `imread()`).
+
+<p align="center">
+&#9678; &#9678; &#9678;
+</p>
