@@ -23,10 +23,25 @@ cv.createTrackbar('B', 'image', 0, 255, nothing); # first argument -> trackbar n
 cv.createTrackbar('G', 'image', 0, 255, nothing);
 cv.createTrackbar('R', 'image', 0, 255, nothing);
 
-while True:
-    cv.imshow('Image', img);
+switch='0:OFF\n1:ON';
 
-    if (cv.waitKey(0) & 0Xff) == ord('q'):
+cv.createTrackbar(switch, 'image', 0, 1, nothing);
+
+while True:
+    cv.imshow('image', img);
+
+
+    if (cv.waitKey(1) & 0XFF) == ord('q'):
         break;
+    # get the position/value set by you in the trackbar.
+    b=cv.getTrackbarPos('B', 'image'); # first argument -> name of the trackbar for which you want to get the value; second argument -> name of the window in which this trackbar is present(i.e. it's the second argument given to createTrackbar()).
+    g=cv.getTrackbarPos('G', 'image');
+    r=cv.getTrackbarPos('R', 'image');
+    s=cv.getTrackbarPos(switch, 'image');
+
+    if(s==0):
+        img[:]=0;
+    else:
+        img[:]=[b, g, r];
 
 cv.destroyAllWindows();
