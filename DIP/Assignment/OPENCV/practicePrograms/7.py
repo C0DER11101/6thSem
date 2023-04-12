@@ -15,10 +15,11 @@ while(True):
 
     hsv=cv2.cvtColor(frame, cv2.COLOR_BGR2HSV); # converts the frame captured into hsv colored image
 
+    # colors that we want to extract!!
     lower_blue=np.array([90, 50, 50]); # light blue
     upper_blue=np.array([130, 255, 255]); # dark blue
 
-    mask=cv2.inRange(hsv, lower_blue, upper_blue); # returns a new image/a mask those pixels in the given range between lower_blue and upper_blue that need to be displayed.
+    mask=cv2.inRange(hsv, lower_blue, upper_blue); # returns a new image/a mask that has only the blue pixels in it.
 
     result=cv2.bitwise_and(frame, frame, mask=mask);
     """
