@@ -10,7 +10,7 @@ In this filter, we have kernel:
 
 $K = \frac{1}{K_{width}.K_{height}} \times the\ matrix\ that\ contains\ all\ 1s\ which\ has\ a\ dimension\ K_{width} \times K_{height}$
 
-So if the we want to use a kernle of $5 \times 5$, then the kernel will look like this:
+So if the we want to use a kernel of $5 \times 5$, then the kernel will look like this:
 
 $K = \frac{1}{25} \times\ the\ 5 \times 5\ matrix\ containing\ all\ the\ 1s$
 
