@@ -8,11 +8,11 @@ In image processing, a kernel, convolution matrix, or mask is a small matrix. It
 
 In this filter, we have kernel:
 
-$K = \frac{1}{K_{width}.K_{height}} \times the matrix that contains all 1s which has a dimension K_{width} \times K_{height}$
+$K = \frac{1}{K_{width}.K_{height}} \times the\ matrix\ that\ contains\ all\ 1s\ which\ has\ a\ dimension\ K_{width} \times K_{height}$
 
 So if the we want to use a kernle of $5 \times 5$, then the kernel will look like this:
 
-$K=\frac{1}{25}$ \times the 5 \times 5 matrix containing all the 1s$
+$K = \frac{1}{25}$ \times the 5 \times 5\ matrix\ containing\ all\ the\ 1s$
 
 _In one-dimensional signals, images also can be filtered with various low-pass filters(LPF), high-pass filters(HPF)._
 
