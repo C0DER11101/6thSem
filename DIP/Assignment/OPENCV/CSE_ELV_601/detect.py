@@ -74,5 +74,6 @@ result=reader.readtext(target_area);
 print(result);
 #-------------------------------------
 
+cv2.rectangle(img, (y1, x1), (y2, x2), (0, 255, 0), 7);
 
-show(target_area);
+show(img);
