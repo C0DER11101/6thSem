@@ -1,4 +1,5 @@
 # 1. Import modules
+import csv
 import numpy as np
 import cv2
 import imutils
@@ -6,6 +7,7 @@ import easyocr
 from matplotlib import pyplot as plt
 #-------------------------------------
 
+# functions
 def show(image):
         plt.imshow(cv2.cvtColor(image, cv2.COLOR_BGR2RGB));
         plt.show();
@@ -31,9 +33,11 @@ def MinContour(x, y):
 
 def MaxContour(x, y):
     return(np.max(x), np.max(y));
+#----------------------------
 
 # 2. Read the image
-img=cv2.imread('vehicle3.jpg');
+vehicle='car2.jpg';
+img=cv2.imread(vehicle);
 gray=cv2.cvtColor(img, cv2.COLOR_BGR2GRAY);
 #-------------------------------------
 
@@ -71,7 +75,10 @@ target_area=gray[x1:x2+1, y1:y2+1];
 # 5. Use easy OCR to read text
 reader=easyocr.Reader(['en']);
 result=reader.readtext(target_area);
-print(result);
+data=[vehicle, result[0][1]];
+with open("record.csv", "a") as file:
+    writer=csv.writer(file);
+    writer.writerow(data);
 #-------------------------------------
 
 cv2.rectangle(img, (y1, x1), (y2, x2), (0, 255, 0), 7);
