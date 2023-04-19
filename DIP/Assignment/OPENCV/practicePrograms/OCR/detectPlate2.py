@@ -3,7 +3,7 @@ import easyocr
 from matplotlib import pyplot as plt
 
 # Load the image and convert it to grayscale
-image = cv2.imread('vehicle3.jpg')
+image = cv2.imread('car6.jpeg')
 gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 
 # Apply a median blur to reduce noise
