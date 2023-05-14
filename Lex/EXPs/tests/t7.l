@@ -5,7 +5,7 @@
 %}
 
 %%
-[ \t][ \t] {fputc(' ', yyout);}
+[ \t][ \t]+ {fputc(' ', yyout);}
 [ \t] {;}
 . {fputc(yytext[0], yyout);}
 %%
