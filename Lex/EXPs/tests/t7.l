@@ -1,7 +1,6 @@
 /* remove single space from a file */
 
 %{
-	int count=0, prev=0;
 %}
 
 %%
