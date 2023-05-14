@@ -9,6 +9,8 @@ int main(void)
 	printf("enter a number: ");
 	scanf("%d", &num);
 
+	num+=1;
+
 	printf("%d! = %d\n", num, fact(num));
 
 	return 0;
