@@ -46,7 +46,7 @@ But if the input string is `a+b`
 
 Then:
 ```
-yytext[0]='a', yytext[1]='+' and yytext[2]='b'
+yytext[0]='a', yytext[1]='+' and yytext[0]='b'
 ```
 
 
