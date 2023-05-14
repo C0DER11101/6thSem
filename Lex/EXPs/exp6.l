@@ -1,7 +1,7 @@
 /* write a C-program in a file and show how many keywords, constants and special characters are present in your file. */
 
 %{
-	int countKey=0, countId=0, countSym=0;
+	int countKey=0, countConst=0, countSpCh=0;
 %}
 
 %%
@@ -39,7 +39,19 @@
 [^A-Za-z0-9]volatile[^A-Za-z0-9] |
 [^A-Za-z0-9]register[^A-Za-z0-9] { ++countKey; }
 
-#[A-Za-z0-9] { printf("Header: ");for(int i=0; yytext[i]!='\0'; i++) printf("%c", yytext[i]); }
+[0-9]+ {++countConst;}
+
+
+"+" |
+"-" |
+"*" |
+"/" |
+"_" |
+"\\" |
+"=" |
+"." |
+"<" |
+">" {++countSpCh;}
 
 
 %%
@@ -48,7 +60,9 @@ int main(void)
 {
 	yyin=fopen("main.c", "r");
 	yylex();
-	printf("\nthere are %d keywords in the file!!\n", countKey);
+	printf("\nNumber of keywords: %d\n", countKey);
+	printf("\nNumber of constants: %d\n", countConst);
+	printf("\nNumber of special characters: %d\n", countSpCh);
 
 
 	fclose(yyin);
